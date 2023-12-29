@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- 폼은 나중에 데이터를 전송하기 위한 역활 -->
+	<h3><b>회원가입 양식</b></h3>
+	<form>
+	
+		ID: <input type="text" name="ID" size="20" maxlength ="5" placeholder="아이디 입력"> <br>
+		Password: <input type="password" name="password"> <br>
+		Birthday: <input type="date" name="birth"> <br>
+		Age: <input type="number" name="age"> <br>	
+				
+		<!-- checkbox,radio 동일한 그룹(name)으로 묶어줍니다.  -->
+		Hobby  <br>
+		Soccer: <input type="checkbox" name="a1">
+		Baseball: <input type="checkbox" name="a1">
+		Basketball: <input type="checkbox" name="a1">
+		Hockey: <input type="checkbox" name="a1"> <br>
+
+		Major:
+		Computer Science <input type ="radio" name="b1">
+		Psychology <input type ="radio" name="b1">
+		Sociology <input type ="radio" name="b1">
+		Biology <input type ="radio" name="b1">
+		<br>
+
+		<br>
+		
+		지역:
+		<select name="Region">
+			<option>서울시</option>
+			<option>경기도</option>
+			<option>제주도</option>
+			<option>인천시</option>
+			<option>부산시</option>
+		
+		</select>
+		<br>		
+		
+		Introduction
+		<br>
+		<textarea rows="10" cols="50">
+		
+		</textarea>
+		<br>
+		
+		<!-- button -->
+		<input type="button" value="그냥 버튼">
+		<br>
+		<!-- form 초기화 입력양식 초기화-->
+		<input type="reset" value="Reset">
+
+		<!-- Submit -->
+		<input type="submit" value="가입" > 
+	</form>
+
+
+</body>
+</html>

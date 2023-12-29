@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h2><b>EMP 정보를 테이블에 그려봅시다</b></h2>
+	
+	<table style="text-align: left">
+		<tr>
+			<th>사원번호:</th>
+			<th><input type="text" maxlength="50" size="15"></th>
+		</tr>
+		<tr>
+			<th>이름:</th>
+			<th><input type="text" maxlength="50" size="15"></th>
+		</tr>
+		<tr>
+			<th>성별:</th>
+			<th>남자<input type="radio" name="a1" value="남자"> 여자<input type="radio" name="a1" value="여자"></th>
+
+		</tr>
+		<tr>
+			<th>직업: </th>
+			<th><input type="text" maxlength="50" size="15"></th>
+		</tr>
+		<tr>
+			<th>상사:</th>
+			<th><select name="boss">
+				<option>7369</option>
+				<option>1231</option>
+				<option>1100</option>
+				<option>3456</option>
+				</select>
+			</th>
+		</tr>
+		<tr>
+			<th>입사일:</th>
+			<th><input type="date" maxlength="50" size="15"></th>
+		</tr>
+		<tr>
+			<th>급여:</th>
+			<th><input type="number" maxlength="50" size="15"></th>
+		</tr>
+		<tr>
+			<th>커미션:</th>
+			<th><input type="number" maxlength="50" size="15"></th>
+		</tr>
+		<tr>
+			<th>부서번호</th>
+			<th><select name="department_name">
+				<option>10 ACCOUNTING NEWYORK</option>
+				<option>11 SALES SEATTLE</option>
+				<option>10 FINANCE LOS ANGELOS</option>
+				<option>10 ACCOUNTING NEWYORK</option>
+				</select>
+			</th>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">
+			<input type="submit" value="저장" >	
+			<input type="reset" value="취소" >
+		</tr>
+	</table>
+	
+
+
+
+</body>
+</html>
