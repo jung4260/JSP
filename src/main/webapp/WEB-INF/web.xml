@@ -25,7 +25,26 @@
   	<url-pattern>/apple</url-pattern>
   </servlet-mapping>
   
-
+  
+  <!-- 예외처리에 대한 프로젝트 전역설정 -개발도중에 하면 예외로그가 보이지 않기 때문에 프로젝트가 다 끝난 후에 고려할 사항 -->
+  <!-- <error-page> 
+  	<error-code>404</error-code>
+  	<location>/errorpage/error_view.jsp</location>
+  </error-page>
+  <error-page> 
+  	<error-code>500</error-code>
+  	<location>/errorpage/error_view.jsp</location>
+  </error-page>
+  <error-page> 
+  	<error-code>503</error-code>
+  	<location>/errorpage/error_view.jsp</location>
+  </error-page>
+  
+  <error-page>
+  	<exception-type>java.lang.NullPointerException</exception-type>
+  	<location>/errorpage/error_view.jsp</location>
+  </error-page>
+   -->
   
   
 </web-app>
