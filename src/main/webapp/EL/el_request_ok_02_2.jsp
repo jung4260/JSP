@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<!-- param. & requestScope.는 생략이 가능하다 -->
+	<!-- requestScope.는 생략이 가능하다 -->
 	${name }<br>
 	${requestScope.member } <br>
 	${requestScope.member.id } <br>

@@ -9,7 +9,8 @@
 </head>
 <body>
 	
-	<a href="../forward?name=홍길동">forward_ex04로</a>
+	<a href="../forward?name=이기제">servlet으로</a> <br>
+	<a href="forward_ex04.jsp?name=강감찬">forward_ex04로</a>
 	
 </body>
 </html>
